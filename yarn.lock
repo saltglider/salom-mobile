@@ -3655,6 +3655,10 @@ ignite-dev-screens@~>2.0.0:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/ignite-dev-screens/-/ignite-dev-screens-2.0.1.tgz#e89785d671a7d96988812499c7515af3dd2aa96e"
 
+ignite-i18n@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/ignite-i18n/-/ignite-i18n-1.0.0.tgz#4e7f5ecebf00ceeac0b52a1a2fb5227b5ecb3faa"
+
 ignite-ir-boilerplate@^2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/ignite-ir-boilerplate/-/ignite-ir-boilerplate-2.1.1.tgz#261c1abace4cafc68feba34568a076bde85fc119"
@@ -6035,6 +6039,10 @@ react-native-drawer@^2.3.0:
   dependencies:
     prop-types "^15.5.8"
     tween-functions "^1.0.1"
+
+react-native-i18n@1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/react-native-i18n/-/react-native-i18n-1.0.0.tgz#0c407d9ebb846aae1aa5e05de6503008553f02fd"
 
 react-native-tab-view@^0.0.67:
   version "0.0.67"
