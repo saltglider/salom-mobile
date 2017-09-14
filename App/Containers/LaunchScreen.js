@@ -5,6 +5,10 @@ import { ScrollView, Text, Image, View } from 'react-native'
 import styles from './Styles/LaunchScreenStyles'
 
 export default class LaunchScreen extends Component {
+  static navigationOptions = ({ navigation, screenProps }) => ({
+    title: "Salom"
+  });
+
   render () {
     return (
       <View style={styles.mainContainer}>

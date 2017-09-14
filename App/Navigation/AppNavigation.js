@@ -10,10 +10,11 @@ const PrimaryNav = StackNavigator({
   LaunchScreen: { screen: LaunchScreen }
 }, {
   // Default config for all screens
-  headerMode: 'none',
+  headerMode: 'float',
   initialRouteName: 'LaunchScreen',
   navigationOptions: {
-    headerStyle: styles.header
+    headerStyle: styles.header,
+    headerTitleStyle: styles.headerTitle
   }
 })
 

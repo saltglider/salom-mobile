@@ -3,6 +3,10 @@ import { Colors } from '../../Themes/'
 
 export default StyleSheet.create({
   header: {
-    backgroundColor: Colors.backgroundColor
+    // fontcolor: Colors.silver,
+    backgroundColor: Colors.headerBackground
+  },
+  headerTitle: {
+    color: Colors.silver
   }
 })
