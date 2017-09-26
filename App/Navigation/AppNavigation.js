@@ -3,6 +3,7 @@ import { StackNavigator } from 'react-navigation'
 import HomeScreen from '../Containers/HomeScreen'
 import AboutScreen from '../Containers/AboutScreen'
 import LaunchScreen from '../Containers/LaunchScreen'
+import ModalScreen from "../Containers/ModalScreen";
 import ToolbarDropdown from '../Components/ToolbarDropdown';
 
 import styles from './Styles/NavigationStyles'
@@ -16,7 +17,8 @@ const toolbarMenu = [
 const PrimaryNav = StackNavigator({
   HomeScreen: { screen: HomeScreen },
   AboutScreen: { screen: AboutScreen },
-  LaunchScreen: { screen: LaunchScreen }
+  LaunchScreen: { screen: LaunchScreen },
+  ModalScreen: { screen: ModalScreen }
 }, {
   // Default config for all screens
   headerMode: 'float',
